@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "interests": ["单机/PC游戏", "AI技术"],
+  "max_tool_calls": 16,
+  "run_timeout": 360,
+  "credential_path": "请填写本机B站凭据JSON路径，不要提交该文件",
+  "sender_uid": 0,
+  "recipient_uid": 0,
+  "asr_python": "可选：安装faster-whisper的Python路径",
+  "asr_cache": "可选：已下载的Whisper缓存目录",
+  "asr_model": "small"
+}

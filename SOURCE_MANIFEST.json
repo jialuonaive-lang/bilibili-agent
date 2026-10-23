@@ -1,0 +1,16 @@
+{
+  "run.py": "10bac3b1896ebfacedc0cbcd056ad44d6964bd6a24e90c746bbc7dac1d49f37a",
+  "schedule.py": "6547bb1a2f0da6530893014a22d76e8d45b3a4852ae78c95616c0536156c9cb0",
+  "README.md": "1acb6ceebadd31da7ec28f8f1cd330803808ed40315db9190afac04d52b8312d",
+  "requirements.txt": "c9a55545053b65e0467dd3b2d9224b6d769a4374dc5167782e9b1e0147a0d8be",
+  "config.example.json": "e7dcd60f6e0aefedc8dd8a05903e2398af8f01d1295ecc34abe944ee494f6a82",
+  ".gitignore": "5925bb3eb93fe543e79e2c05bb00903db45bd1a4c7eac1def17cfb55f6685a57",
+  "app/__init__.py": "f9ff0c77ed8668f18ae442ae13477a37fe1ab843bb802e6b1132079abdcd10e8",
+  "app/asr_worker.py": "3df602c873689c1d24e0b0f93eabb4de04baee4a6bdb75ac327e15e86e586699",
+  "app/bilibili_adapter.py": "a01309d34fc57f9406416c32c4d2b1e288e186eaeb4e96045227322f94f2b9fa",
+  "app/codex_rpc.py": "0d68dbc0059fe9058a951e5203cf2f8efd98e7e68a9f0e7e894c48b52c390b10",
+  "app/tools.py": "638a0f017d4873b701dadb5fea4c473cc2dca7249615718bbdf489de2265d319",
+  "tests/test_schedule.py": "719831078b9780c5cf17316db45d07dc940567a53e4023cd6ac84b577f5050e5",
+  "tests/test_tools.py": "1ed64f2363d67fc5e6bdd0fb80fa62e762c2c2d928ddb26374122ceada977935",
+  "prompts/system.txt": "c76e9c9b7f1830601361ae0b31997b4da5f7f84c5d0d82d92329f2cd52ee8c4d"
+}
