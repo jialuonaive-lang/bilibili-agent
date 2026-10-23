@@ -1,0 +1,8 @@
+{
+  "data_source": "real OpenAI/Codex model; synthetic SDK data; injected fault when labelled",
+  "name": "missing-preferences",
+  "search_calls": 0,
+  "status": "completed",
+  "final": "你想看哪类视频？比如游戏、科技、影视、音乐或知识科普。",
+  "passed": true
+}

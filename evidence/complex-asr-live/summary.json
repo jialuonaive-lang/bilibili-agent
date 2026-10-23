@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "mode": "live",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "final": "已分享 2 条：分别约 **2分07秒** 和 **1分49秒**。都已通过字幕核实，重点讲无人机/敌人机制，以及虚空场景、侵蚀边缘和追踪眼球等具体改动。",
+  "tool_calls": 13,
+  "token_usage": {
+    "total": {
+      "totalTokens": 138081,
+      "inputTokens": 136468,
+      "cachedInputTokens": 102784,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1613,
+      "reasoningOutputTokens": 867
+    },
+    "last": {
+      "totalTokens": 18414,
+      "inputTokens": 18314,
+      "cachedInputTokens": 17024,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 100,
+      "reasoningOutputTokens": 36
+    },
+    "modelContextWindow": 258400
+  },
+  "elapsed_seconds": 61.204
+}

@@ -1,0 +1,1 @@
+原始本机Trace保留完整；提交包对较长字幕只提供前100字、长度和SHA256，明确标为节选。动作、回执和错误没有伪造。injection/timeout/missing-preferences是实际模型调用合成工具资料；不是B站平台故障。

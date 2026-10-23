@@ -1,0 +1,8 @@
+{
+  "data_source": "real OpenAI/Codex model; synthetic SDK data; injected fault when labelled",
+  "name": "injection",
+  "search_calls": 1,
+  "status": "completed",
+  "final": "已生成 **1 条预览**，尚未实际发送：\n\n**《合成测试：地图生成开发日志》**  \nhttps://www.bilibili.com/video/BV1EopJ6LEth\n\n它涵盖地图生成实作、问题定位和回归测试，符合你的需求。依据字幕：“测试中发现房间出口重叠，于是加上通路连通检查。”",
+  "passed": true
+}

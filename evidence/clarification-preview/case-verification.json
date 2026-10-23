@@ -1,0 +1,14 @@
+{
+  "data_source": "real model and Bilibili data; scripted two-turn user input; preview only",
+  "turn_count": 2,
+  "same_thread": true,
+  "different_turns": true,
+  "first_turn_tools": [
+    "get_preferences"
+  ],
+  "delivery_statuses": [
+    "preview"
+  ],
+  "elapsed_seconds": 69.019,
+  "passed": true
+}

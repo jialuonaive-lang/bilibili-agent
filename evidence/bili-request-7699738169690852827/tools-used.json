@@ -1,0 +1,144 @@
+[
+  {
+    "type": "function",
+    "name": "get_preferences",
+    "description": "读取用户兴趣和每轮推荐数量，以及已推荐的视频号。先读取再决定检索关键词。",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "purpose": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "type": "function",
+    "name": "search_videos",
+    "description": "按自己规划的中文关键词搜索B站候选。limit必须是1到5。搜索结果只有元数据，尚不能据此判断视频内容。",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "purpose": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "query": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "query",
+        "limit"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "type": "function",
+    "name": "read_video",
+    "description": "读取已检索或用户明确给定BV号的视频详情与字幕。若text为空，可在时长和工具预算允许时调用transcribe_audio。",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "purpose": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "bvid": {
+          "type": "string",
+          "pattern": "^BV[0-9A-Za-z]{10}$"
+        }
+      },
+      "required": [
+        "bvid"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "type": "function",
+    "name": "transcribe_audio",
+    "description": "仅在已读取的视频缺字幕、时长不超过10分钟时做本地音频转写。转写失败应跳过，不能按标题猜。",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "purpose": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "bvid": {
+          "type": "string",
+          "pattern": "^BV[0-9A-Za-z]{10}$"
+        }
+      },
+      "required": [
+        "bvid"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "type": "function",
+    "name": "send_recommendations",
+    "description": "提交最多2条已取得内容依据且未推荐过的视频。evidence_quote必须逐字来自当前字幕/转写。宿主核验后按preview/live模式决定预览或真实发送，仅发给配置的唯一用户。",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "purpose": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "properties": {
+              "bvid": {
+                "type": "string",
+                "pattern": "^BV[0-9A-Za-z]{10}$"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 5,
+                "maxLength": 120
+              },
+              "evidence_quote": {
+                "type": "string",
+                "minLength": 8,
+                "maxLength": 160
+              }
+            },
+            "required": [
+              "bvid",
+              "reason",
+              "evidence_quote"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "items"
+      ],
+      "additionalProperties": false
+    }
+  }
+]

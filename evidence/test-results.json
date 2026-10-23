@@ -1,0 +1,82 @@
+{
+  "total": 18,
+  "passed": 18,
+  "failures": 0,
+  "errors": 0,
+  "seconds": 0.54,
+  "data_source": "isolated mock adapters; no Bilibili messages sent",
+  "cases": [
+    {
+      "id": "test_schedule.ScheduleTests.test_exact_round_count_sleep_and_live_scope",
+      "status": "passed"
+    },
+    {
+      "id": "test_schedule.ScheduleTests.test_invalid_budget_never_starts_model",
+      "status": "passed"
+    },
+    {
+      "id": "test_schedule.ScheduleTests.test_last_round_does_not_leave_sleeping_task",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_budget_blocks_additional_external_work",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_disk_failure_before_send_prevents_side_effect",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_invented_evidence_is_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_live_success_has_receipt_and_persistent_deduplication",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_media_url_allowlist_blocks_external_hosts_and_fake_suffixes",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_missing_query_is_rejected_before_api",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_missing_subtitle_transcribes_only_after_read_and_within_limit",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_platform_exception_retains_uncertain_attempt",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_preview_cannot_claim_sent_or_mutate_delivery_state",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_second_submission_and_duplicate_items_are_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_subtitle_required_and_title_does_not_count",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_timeout_returns_observation_and_loop_can_continue",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_undiscovered_video_cannot_be_fabricated",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_unknown_receipt_remains_uncertain_and_is_not_replayed",
+      "status": "passed"
+    },
+    {
+      "id": "test_tools.ToolTests.test_unknown_tool_and_extra_recipient_cannot_expand_permissions",
+      "status": "passed"
+    }
+  ]
+}

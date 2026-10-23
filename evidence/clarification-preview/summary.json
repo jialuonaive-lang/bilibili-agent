@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "mode": "preview",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "final": "已生成 1 条预览（未发送）：\n\n**《毛茸茸种田游戏，主包回来更新了》**  \n时长 **2分47秒**，带字幕，具体讲了地图生成、海拔气温、地块美术和作物匹配等改动。",
+  "tool_calls": 14,
+  "token_usage": {
+    "total": {
+      "totalTokens": 219315,
+      "inputTokens": 217689,
+      "cachedInputTokens": 196352,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1626,
+      "reasoningOutputTokens": 709
+    },
+    "last": {
+      "totalTokens": 19064,
+      "inputTokens": 18962,
+      "cachedInputTokens": 18176,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 102,
+      "reasoningOutputTokens": 31
+    },
+    "modelContextWindow": 258400
+  },
+  "turns": [
+    {
+      "number": 1,
+      "request": "给我推荐点东西。",
+      "final": "你想看什么主题的 B 站视频？比如科技、游戏、影视、知识或搞笑。"
+    },
+    {
+      "number": 2,
+      "request": "我想看独立游戏开发日志，三分钟以内，讲具体改动，有字幕优先，只预览一条。",
+      "final": "已生成 1 条预览（未发送）：\n\n**《毛茸茸种田游戏，主包回来更新了》**  \n时长 **2分47秒**，带字幕，具体讲了地图生成、海拔气温、地块美术和作物匹配等改动。"
+    }
+  ],
+  "elapsed_seconds": 69.019
+}

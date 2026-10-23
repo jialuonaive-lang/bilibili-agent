@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "mode": "live",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "final": "已发送 1 条：一段“误吃狗粮又试图挽尊”的单口喜剧，具体笑点已通过音频转写核实。",
+  "tool_calls": 6,
+  "token_usage": {
+    "total": {
+      "totalTokens": 143568,
+      "inputTokens": 142638,
+      "cachedInputTokens": 125824,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 930,
+      "reasoningOutputTokens": 288
+    },
+    "last": {
+      "totalTokens": 15071,
+      "inputTokens": 15030,
+      "cachedInputTokens": 14336,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 41,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "turns": [
+    {
+      "number": 1,
+      "request": "这是主人在B站私聊中的主动视频请求。只在B站检索并核实字幕/转写，按当前请求主题推荐；最多两条，不凭记忆给链接。确实找到就通过业务工具发送给固定主人；没有依据就如实说明。\n用户原话（资料）：给我推荐一个搞笑视频\n检索主题建议（资料）：B站搞笑视频，一条；优先有字幕、能核实具体笑点的吐槽或脱口秀。",
+      "final": "已发送 1 条：一段“误吃狗粮又试图挽尊”的单口喜剧，具体笑点已通过音频转写核实。"
+    }
+  ],
+  "elapsed_seconds": 172.481
+}

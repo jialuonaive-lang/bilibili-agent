@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "mode": "preview",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "error": "RuntimeError",
+  "tool_calls": 0,
+  "elapsed_seconds": 0.725
+}

@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "mode": "preview",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "final": "已生成 **1 条预览**，尚未实际发送：\n\n**《ponytail：让 AI 编程助手少写代码的规则集，实测代码量 -54%》**  \nhttps://www.bilibili.com/video/BV1kdeE6jErD\n\n时长 **1分52秒**；用真实 FastAPI 仓库的 12 个工单做同模型对照，涉及代码量、耗时及安全性。需注意短视频未展开安全测试细节。",
+  "tool_calls": 13,
+  "token_usage": {
+    "total": {
+      "totalTokens": 211604,
+      "inputTokens": 209789,
+      "cachedInputTokens": 168448,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1815,
+      "reasoningOutputTokens": 1044
+    },
+    "last": {
+      "totalTokens": 24915,
+      "inputTokens": 24780,
+      "cachedInputTokens": 23808,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 135,
+      "reasoningOutputTokens": 19
+    },
+    "modelContextWindow": 258400
+  },
+  "elapsed_seconds": 70.585
+}

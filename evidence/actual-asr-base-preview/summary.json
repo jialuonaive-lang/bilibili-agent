@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "mode": "preview",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "final": "这条视频（1分49秒）没有字幕，本地音频转写也失败了，因此缺少可靠内容依据，不能仅凭标题猜测开发者具体改动，暂不生成或提交推荐预览。",
+  "tool_calls": 3,
+  "token_usage": {
+    "total": {
+      "totalTokens": 47901,
+      "inputTokens": 47469,
+      "cachedInputTokens": 23040,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 432,
+      "reasoningOutputTokens": 223
+    },
+    "last": {
+      "totalTokens": 12247,
+      "inputTokens": 12076,
+      "cachedInputTokens": 11392,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 171,
+      "reasoningOutputTokens": 117
+    },
+    "modelContextWindow": 258400
+  },
+  "elapsed_seconds": 24.827
+}

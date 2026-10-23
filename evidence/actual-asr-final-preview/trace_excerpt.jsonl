@@ -1,0 +1,2 @@
+{"seq": 1, "time": "2026-10-23T11:55:52.167+08:00", "elapsed": 0.0, "kind": "input", "request": "请分析BV1Adnp6dEt9，字幕或音频没提供可用内容时就直说，先给预览", "delivery_mode": "preview", "model": "gpt-5.6-sol", "prompt_sha256": "c76e9c9b7f1830601361ae0b31997b4da5f7f84c5d0d82d92329f2cd52ee8c4d"}
+{"seq": 2, "time": "2026-10-23T11:55:52.891+08:00", "elapsed": 0.724, "kind": "failure", "error": "RuntimeError"}

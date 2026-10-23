@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "mode": "preview",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "final": "你想看哪类视频？比如游戏、科技、影视、音乐或知识科普。",
+  "tool_calls": 1,
+  "token_usage": {
+    "total": {
+      "totalTokens": 23003,
+      "inputTokens": 22907,
+      "cachedInputTokens": 11264,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 96,
+      "reasoningOutputTokens": 47
+    },
+    "last": {
+      "totalTokens": 11545,
+      "inputTokens": 11505,
+      "cachedInputTokens": 11264,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 40,
+      "reasoningOutputTokens": 14
+    },
+    "modelContextWindow": 258400
+  },
+  "elapsed_seconds": 9.368
+}

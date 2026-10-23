@@ -1,0 +1,19 @@
+{
+  "data_source": "real model and Bilibili; controlled replay of an existing owner request, not a new inbox event",
+  "controlled_replay": true,
+  "server_verified": true,
+  "asr_successes": [
+    {
+      "bvid": "BV1Mbn26aE5S",
+      "duration": 449,
+      "text_length": 3815,
+      "source": "local_asr",
+      "cache_hit": false,
+      "seconds": 133.388,
+      "text_sha256": "f68fdc262191c22b7ec6c2881977c2c8fb766d3b7b4ae746d34db9f6971e1a1c"
+    }
+  ],
+  "tool_calls": 6,
+  "elapsed_seconds": 172.481,
+  "passed": true
+}

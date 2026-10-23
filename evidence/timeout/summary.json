@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "mode": "preview",
+  "model": "gpt-5.6-sol",
+  "effort": "xhigh",
+  "final": "已生成预览，**未实际发送**：\n\n**《合成测试：地图生成开发日志》**  \nhttps://www.bilibili.com/video/BV1EopJ6LEth\n\n涵盖地图生成实作、统一关卡测试、问题复现与连通性修正。  \n依据：“测试中发现房间出口重叠，于是加上通路连通检查。”\n\n注：检索服务标明这是**合成测试候选，并非真实B站返回**，因此仅作流程预览。",
+  "tool_calls": 7,
+  "token_usage": {
+    "total": {
+      "totalTokens": 98051,
+      "inputTokens": 97010,
+      "cachedInputTokens": 82688,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1041,
+      "reasoningOutputTokens": 576
+    },
+    "last": {
+      "totalTokens": 13294,
+      "inputTokens": 13016,
+      "cachedInputTokens": 12288,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 278,
+      "reasoningOutputTokens": 157
+    },
+    "modelContextWindow": 258400
+  },
+  "elapsed_seconds": 42.783
+}
